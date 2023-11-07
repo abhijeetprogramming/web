@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--link css-->
+    <!-- <link rel="stylesheet" href="css/ayushman.css"> -->
+
+</head>
+
+<style>
+    .space {
+        margin: 60px 120px;
+    }
+
+    .sec-1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+
+    .box {
+        position: relative;
+        cursor: pointer;
+        width: 265px;
+        height: 245px;
+        margin: 3px 5px;
+        /* transition: all 0.2s; */
+        overflow: hidden;
+        border-radius: 15px;
+        box-shadow: 0 1px 2px rgb(173 173 173);
+        background-color: rgb(243 240 240);
+    }
+
+    .box img {
+        width: 100%;
+        border-radius: 15px;
+        border: 1px solid rgb(204, 203, 203);
+
+    }
+
+    .white {
+        position: absolute;
+        bottom: 3px;
+        align-items: center;
+        border-radius: 0 0 15px 15px;
+        background-color: white;
+        width: 100%;
+        height: 25%;
+
+    }
+
+    .white p {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 19px;
+        color: rgb(56, 56, 56);
+        letter-spacing: 0.7px;
+    }
+
+    .sec-2 h2 {
+        font-size: 38px;
+        font-weight: lighter;
+        margin-bottom: 10px;
+    }
+
+    .sec-2 div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .sec-2 h6 {
+        margin: 0;
+        font-size: 17px;
+        font-weight: lighter;
+        color: rgb(99, 98, 98);
+    }
+
+    .fa-caret-right,
+    .sec-2 span {
+        color: rgb(248, 117, 117);
+    }
+
+    .box-1 {
+        width: 270px;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .box-1 div {
+        position: absolute;
+        background: linear-gradient(transparent, red);
+        width: 100%;
+        height: 25%;
+        display: flex;
+        align-items: flex-end;
+        bottom: 0;
+    }
+
+    .box-1 div span:first-child {
+        display: inline-block;
+        color: white;
+        padding-left: 15px;
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    .box-1 i {
+        color: white;
+        padding-bottom: 15px;
+    }
+
+    .box-1 img {
+        width: 270px;
+        height: 300px;
+        object-fit: cover;
+
+    }
+
+    .sec-3 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 130px;
+    }
+    
+</style>
+
+<section class="space">
+    <!-- order tiles -->
+    <div class="sec-1">
+        <div class="box">
+            <div class="white">
+                <p>Order Food Online</p>
+            </div>
+            <img
+                src="https://b.zmtcdn.com/webFrontend/64dffaa58ffa55a377cdf42b6a690e721585809275.png?fit=around|402:360&crop=402:360;*,*">
+        </div>
+        <div class="box">
+            <div class="white">
+                <p>Go out for a meal</p>
+            </div>
+            <img
+                src="https://b.zmtcdn.com/webFrontend/95f005332f5b9e71b9406828b63335331585809309.png?fit=around|402:360&crop=402:360;*,*">
+        </div>
+        <div class="box">
+            <div class="white">
+                <p>Zomato Pro</p>
+            </div>
+            <img
+                src="https://b.zmtcdn.com/webFrontend/b256d0dd8a29f9e0623ecaaea910534d1585809352.png?fit=around|402:360&crop=402:360;*,*">
+        </div>
+        <div class="box">
+            <div class="white">
+                <p>Nightlife & Clubs</p>
+            </div>
+            <img
+                src="https://b.zmtcdn.com/webFrontend/8ff4212b71b948ed5b6d2ce0d2bc99981594031410.png?fit=around|402:360&crop=402:360;*,*">
+        </div>
+    </div>
+    <!--order end-->
+
+    <!-- collections heading -->
+
+    <div class="sec-2">
+        <h2>Collections</h2>
+        <div>
+            <h6>Explore curated lists of top restaurants, cafes, pubs, and bars in Delhi NCR, based on trends</h6>
+            <span>All collections in Delhi NCR &nbsp;<i class="fas fa-caret-right"></i></span>
+        </div>
+    </div>
+
+    <!-- collections -->
+    <div class="sec-3">
+        <div class="box-1">
+            <div><span>Newly Opened <br> <span>17 Places <i class="fas fa-caret-right"></i></span> </span>
+            </div>
+            <img
+                src="https://images.unsplash.com/photo-1577056922428-a511301a562d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80">
+        </div>
+        <div class="box-1">
+            <div><span>Trending This Week <br> <span>30 Places &nbsp; <i class="fas fa-caret-right"></i></span> </span>
+            </div>
+            <img
+                src="https://st.focusedcollection.com/18590116/i/650/focused_209046464-stock-photo-closeup-view-variety-food-served.jpg">
+        </div>
+        <div class="box-1">
+            <div><span>Best of Delhi NCR <br> <span>157 Places &nbsp; <i class="fas fa-caret-right"></i></span> </span>
+            </div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Nadi_Sri_Siva_Subramaniya_Temple.jpg">
+        </div>
+        <div class="box-1">
+            <div><span>Great Cafes <br> <span>28 Places &nbsp; <i class="fas fa-caret-right"></i></span> </span>
+            </div>
+            <img
+                src="https://content3.jdmagicbox.com/comp/def_content/lighting-dealers/shutterstock-315700163-lighting-dealers-1-xz4up.jpg?clr=443922">
+        </div>
+    </div><!--sec-3 end-->
+</section>

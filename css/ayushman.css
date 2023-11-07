@@ -1,0 +1,608 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    background: #410088;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    padding-left: 75px;
+    font-size: 14px;
+}
+
+.left i {
+    color: white;
+}
+
+.left span {
+    color: white;
+    font-family: math;
+}
+
+.right {
+    padding-right: 75px;
+}
+
+.right a i {
+    border: 1px solid #fcac28;
+    color: white;
+    padding: 2px;
+}
+
+.right a i:hover {
+    background: #fcac28;
+    transition: 0.8ms;
+}
+
+.nav2 {
+    background: #9239a1;
+    width: 100%;
+    height: 105px;
+    display: flex;
+    align-items: center;
+}
+
+.left img {
+    position: relative;
+    top: 35px;
+}
+
+.left h2 {
+    color: #ffd957;
+    position: relative;
+    top: -50px;
+    left: 95px;
+    font-size: 30px;
+}
+
+.left h1 {
+    color: white;
+    position: relative;
+    top: -50px;
+    left: 95px;
+    font-weight: bold;
+}
+
+.right img {
+    position: relative;
+    left: 386px;
+    height: 84px;
+}
+
+.menu {
+    background: #fcac28;
+    width: 100%;
+    height: 56px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    line-height: 53px;
+    font-size: 18px;
+    color: white;
+    margin-left: 50px;
+}
+
+.menu ul li {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.menu ul li:hover {
+    color: #230346;
+    text-decoration: underline;
+    transition: 1ms;
+}
+
+.marq {
+    padding: 0px 65px;
+    background: url(https://ayushmanup.in/assets/images/city_background.png) no-repeat top right #4d4090;
+    height: 37px;
+    line-height: 34px;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.table {
+    height: 213px;
+    background: #c2d9de;
+    width: 1065px;
+    margin-left: 108px;
+    border-radius: 10px;
+}
+
+.table-1 {
+    display: flex;
+}
+
+.table-1-a {
+    background: #f3f8f9;
+    height: 100px;
+    width: 350px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    border-top-left-radius: 8px;
+}
+
+.table-1-b {
+    background: #f3f8f9;
+    height: 100px;
+    width: 350px;
+    position: relative;
+    top: 4px;
+    left: 7px;
+}
+
+.table-1-c {
+    background: #f3f8f9;
+    height: 100px;
+    width: 350px;
+    position: relative;
+    top: 4px;
+    left: 11px;
+    border-top-right-radius: 8px;
+}
+
+.table-2 {
+    display: flex;
+}
+
+.table-2-a {
+    background: #f3f8f9;
+    height: 100px;
+    width: 350px;
+    position: relative;
+    top: 8px;
+    left: 4px;
+    border-bottom-left-radius: 8px;
+}
+
+.table-2-b {
+    background: #f3f8f9;
+    height: 100px;
+    width: 350px;
+    position: relative;
+    top: 8px;
+    left: 7px;
+}
+
+.table-2-c {
+    background: #f3f8f9;
+    height: 100px;
+    width: 350px;
+    position: relative;
+    top: 8px;
+    left: 11px;
+    border-bottom-right-radius: 8px;
+}
+
+.content {
+    display: flex;
+}
+
+.content-1 {
+    margin-left: 70px;
+}
+
+.content-1 p {
+    text-align: justify;
+    margin-right: 207px;
+    line-height: 27px;
+    font-family: math;
+    font-size: 17px;
+}
+
+.content-1 button {
+    background: #4d4090;
+    border: none;
+    height: 44px;
+    width: 109px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+.content-1 button:hover {
+    background-color: #fcac28;
+    transition: 0.8ms;
+}
+
+.content-2a {
+    background: #f3f4ff;
+    width: 600px;
+    height: 184px;
+    position: relative;
+    right: 92px;
+}
+
+.content-2a h3 {
+    margin-top: 6px;
+    color: #4d4090;
+    line-height: 25px;
+}
+
+.content-2a span {
+    font-size: 18px;
+    font-family: serif;
+}
+
+.content-2b {
+    background: #f3f4ff;
+    width: 600px;
+    height: 165px;
+    position: relative;
+    right: 92px;
+    top: 10px;
+}
+
+.content-2b h3 {
+    margin-top: 3px;
+    color: #4d4090;
+    line-height: 23px;
+}
+
+.content-2b span {
+    font-size: 12px;
+}
+
+.content-2c {
+    display: flex;
+    margin-top: 21px;
+}
+
+.content-2c1 {
+    background-color: #f3f4ff;
+    width: 295px;
+    height: 106px;
+    position: relative;
+    right: 92px;
+}
+
+.content-2c1 h5 {
+    margin-top: -84px;
+    margin-left: 112px;
+    font-size: 14px;
+    color: #574090;
+}
+
+.content-2c1 span {
+    line-height: 33px;
+    margin-left: 111px;
+    font-size: 13px;
+}
+
+.content-2c2 {
+    background-color: #f3f4ff;
+    width: 295px;
+    height: 106px;
+    position: relative;
+    right: 82px;
+}
+
+.content-2c2 h5 {
+    margin-top: -84px;
+    margin-left: 112px;
+    font-size: 14px;
+    color: #574090;
+}
+
+.content-2c2 span {
+    line-height: 33px;
+    margin-left: 112px;
+    font-size: 10px;
+}
+
+.note {
+    display: flex;
+}
+
+.note1-a {
+    background: #4682b4;
+    height: 40px;
+    width: 350px;
+    margin-left: 44px;
+    line-height: 36px;
+    color: white;
+    padding: 0px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.note1-b {
+    background: #f5f5dc;
+    height: 385px;
+    width: 350px;
+    margin-left: 44px;
+    padding: 8px;
+    text-align: justify;
+}
+
+.note1-b marquee {
+    line-height: 26px;
+}
+
+.note1-c {
+    border: 1.5px solid #4682b4;
+    width: 350px;
+    margin-left: 44px;
+}
+
+.note2-a {
+    background: #4682b4;
+    height: 40px;
+    width: 350px;
+    margin-left: 62px;
+    line-height: 36px;
+    color: white;
+    padding: 0px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.note2-b {
+    background: #f5f5dc;
+    height: 386px;
+    width: 350px;
+    padding: 10px;
+    margin-left: 62px;
+}
+
+.note2-b marquee {
+    line-height: 26px;
+}
+
+.note2-c {
+    border: 1.5px solid #4682b4;
+    width: 350px;
+    margin-left: 62px;
+}
+
+.note3-a {
+    background: #4682b4;
+    height: 40px;
+    width: 350px;
+    margin-left: 62px;
+    line-height: 36px;
+    color: white;
+    padding: 0px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.note3-b {
+    background: #f5f5dc;
+    height: 386px;
+    width: 350px;
+    padding: 10px;
+    margin-left: 62px;
+}
+
+.note3-b a {
+    text-decoration: none;
+    color: black;
+}
+
+.note3-b marquee {
+    line-height: 33px;
+}
+
+.note3-c {
+    border: 1.5px solid #4682b4;
+    width: 350px;
+    margin-left: 62px;
+}
+
+.blue {
+    background: url(https://ayushmanup.in/assets/images/city_background.png) no-repeat top right #2d4a79;
+    width: 100%;
+    height: 200px;
+}
+
+.blue img {
+    height: 100px;
+    margin-top: 44px;
+    margin-left: 150px;
+}
+
+.blue h2 {
+    color: #ffcd00;
+    margin-left: 386px;
+    margin-top: -92px;
+    font-size: 39px;
+}
+
+.blue button {
+    margin-left: 1048px;
+    height: 48px;
+    width: 121px;
+    margin-top: -18px;
+    background: #eeb712;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.blue button:hover {
+    background: #4d4090;
+    transition: 0.8ms;
+}
+
+.event h2 {
+    margin-left: 58px;
+    font-size: 30px;
+}
+
+.event img {
+    width: 58px;
+    background: #33537b;
+    height: 48px;
+    margin-left: 59px;
+    padding: 8px;
+}
+
+.event p {
+    margin-left: 284px;
+    text-align: justify;
+    margin-right: 80px;
+    margin-top: -40px;
+    font-size: 19px;
+    line-height: 27px;
+    font-family: sans-serif;
+}
+
+.event span {
+    color: red;
+}
+
+.gallery {
+    background: #f3f4ff;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    align-items: center;
+}
+
+.gallery1 {
+    margin-left: 43px;
+}
+
+.gallery1 h1 {
+    font-size: 40px;
+}
+
+.gallery2 img {
+    height: 164px;
+    margin-left: 19px;
+    width: 300px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.gallery3 img {
+    height: 164px;
+    margin-left: 35px;
+    width: 300px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.gallery4 img {
+    height: 164px;
+    margin-left: 35px;
+    width: 300px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.last {
+    display: flex;
+    margin-top: 31px;
+}
+
+footer {
+    background: #32363a;
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+
+.footer1 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.map {
+    border: 14px solid white;
+    border-radius: 14px;
+    margin-top: 25px;
+}
+
+.map iframe {
+    height: 240px;
+    width: 326px;
+}
+
+.footer2 {
+    margin-top: 50px;
+    margin-left: 44px;
+}
+
+.footer2a i a {
+    text-decoration: none;
+    color: #cecece;
+    font-family: math;
+    line-height: 57px;
+    font-size: 22px;
+}
+
+.footer2a i a:hover {
+    color: #ffcd00;
+    transition: 0.8ms;
+}
+
+.footer2b {
+    margin-left: 242px;
+    margin-top: -230px;
+}
+
+.footer2b i a {
+    text-decoration: none;
+    color: #cecece;
+    font-family: math;
+    line-height: 57px;
+    font-size: 22px;
+}
+
+.footer2b i a:hover {
+    color: #ffcd00;
+    transition: 0.8ms;
+}
+
+.footer3 {
+    margin-top: 50px;
+    margin-left: 58px;
+}
+
+.footer3a {
+    margin-left: 50px;
+    margin-top: 7px;
+}
+
+.footer3a h2 {
+    font-size: 20px;
+    color: #de7c11;
+    font-family: monospace;
+}
+
+.footer3a p {
+    color: #cecece;
+    line-height: 20px;
+    margin-top: 28px;
+}
+
+.final {
+    background: #3b4044;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.final p {
+    color: #cecece;
+    font-size: 16px;
+}

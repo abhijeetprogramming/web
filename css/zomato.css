@@ -1,0 +1,354 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.container {
+    width: 83%;
+    margin: auto;
+
+}
+
+.header {
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+}
+
+.header-body-section {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+
+.nav {
+    font-weight: 550;
+    height: 50px;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logoContainer p {
+    padding: 5px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li {
+    padding: 0px 3px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.nav ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.zomato-logo {
+    width: 300px;
+}
+
+.container-header-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    flex-direction: column;
+}
+
+.header-body-content {
+    position: relative;
+    top: -50px;
+}
+
+.header-body-section-discover {
+    font-size: 40px;
+    margin: 25px 0;
+}
+
+.search-container {
+    background-color: white;
+    width: 100%;
+    height: 55px;
+    max-width: 760px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    color: #000;
+}
+
+.location-map {
+    color: rgb(230, 139, 139);
+    font-size: 22px;
+}
+
+.caret-up {
+    color: #000
+}
+
+.detectionLocation input {
+    border: none;
+    font-size: 15px;
+    width: 190px;
+}
+
+.search-item {
+    color: rgb(104, 103, 103);
+    font-size: 18px;
+}
+
+.line {
+    padding: 7px;
+}
+
+.search-item input {
+    max-width: 100%;
+    width: 400px;
+    font-size: 15px;
+    border: none;
+    padding: 5 10px;
+    outline: none;
+}
+
+.h1 {
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 50px;
+    color: rgb(56, 56, 56);
+}
+
+.sec-4 {
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    grid-template-columns: 340px 340px 340px;
+    /*    grid-template-rows: auto;*/
+}
+
+.box-2 {
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow: 0 1px 3px rgb(226, 223, 223);
+    width: 340px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box-2 div {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.box-2 div span {
+    color: rgb(65, 64, 64);
+    font-size: 19px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sec-5 {
+    display: flex;
+    margin: 90px 0;
+    padding: 40px 0;
+    justify-content: center;
+    background-color: rgb(255, 248, 248);
+}
+
+.flex {
+    display: flex;
+}
+
+.contact {
+    width: 760px;
+    overflow: hidden;
+}
+
+.contact img {
+    width: 250px;
+    /* height: 450px; */
+    padding-right: 40px;
+}
+
+.address {
+    width: 470px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.address p {
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: rgb(92, 91, 91);
+}
+
+.address h2 {
+    font-size: 43px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: rgb(34, 34, 34);
+}
+
+.radio {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 230px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.radio label {
+    font-size: 17px;
+    color: rgb(49, 49, 49);
+}
+
+/* radio button color change */
+
+.radio {
+    [type="radio"] {
+        accent-color: rgb(255, 92, 92);
+    }
+
+.email{
+  position: relative;
+    }
+
+.email input{
+    height: 46px;
+    border-radius: 5px;
+    width: 270px;
+    border: 1px solid rgb(184, 183, 183);
+    outline: rgb(255, 92, 92);
+    font-size: 1.3rem;
+    padding-left: 15px;
+}   
+
+.small{
+    position: absolute;
+    font-size: 0.7rem;
+    left: 70px;
+    padding: 5px;
+    transition: all 0.2s ease;
+    background-color: white;
+    top:-10px;
+}
+
+}
+
+/*Footer css */
+
+footer {
+    padding: 40px 120px;
+    background-color: rgb(244, 244, 253);
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 45%;
+    align-items: center;
+
+}
+
+.first-1 {
+    display: flex;
+}
+
+.first-1 span {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 100;
+}
+
+.second {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.second div {
+    width: 200px;
+}
+
+.second h4 {
+    font-weight: lighter;
+    color: rgb(22, 22, 22);
+    white-space: nowrap;
+}
+
+.second a {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.second img {
+    width: 137px;
+    height: 40px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+.box-4 {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.box-4 i {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.third {
+    padding: 10px 0;
+    color: gray;
+    font-size: 0.7rem;
+    margin: 1%;
+}
